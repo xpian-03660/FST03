@@ -1,0 +1,77 @@
+.box1{
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.box2{
+    /* 1: all sides are of equal value */
+    /* 2: top and bottom, left and right */
+    /* 3: top, left and right, bottom*/
+    /* 4: top, right, bottom, left*/
+    padding: 20px;
+    padding: 20px, 10px;
+    padding: 20px 10px 30px;
+    padding: 20px 10px 30px 40px;
+
+}
+
+.box3{
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.box4{
+    /* 1: all sides are of equal value */
+    /* 2: top and bottom, left and right */
+    /* 3: top, left and right, bottom*/
+    /* 4: top, right, bottom, left*/
+    margin: 10px;
+    margin: 10px, 20px;
+    margin: 10px 20px 30px;
+    margin: 10px 20px 30px 40px; 
+}
+
+.mix-borders{
+    background-color:orange;
+    height: 240px;
+    width: 240px;
+    border-style: solid;
+    border-style: dotted;
+    border-style: dashed;
+    border-style: double;
+    border-color: maroon;
+    border-width: 10px;
+
+    /* short-hand version */
+    border: dotted 8px maroon;
+
+}
+
+.circle-container{
+    background-color: orange;
+    height: 150px;
+    width: 150px;
+
+    /* 0px - 100px: roundness */
+    border-radius: 10px;
+    border-radius: 30px;
+
+    border-radius: 10%;
+    border-radius: 60%;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-container h2{
+    color: orangered;
+    padding: 55px;
+}

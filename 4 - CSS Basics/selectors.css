@@ -1,0 +1,44 @@
+/* Universal Selector */
+*{
+    font-size: 15px;
+}
+
+span{
+    color: rgb(119, 205, 255);
+    background-color:blueviolet;
+
+}
+
+/* Class Selector */
+.intro-paragraphs{
+    color: cyan;
+    background-color: gray;
+}
+
+/* ID Selector */
+#main-heading{
+    color: green;
+    font-size: 25px;
+}
+
+/* Grouping Selector */
+h1, h2, .about-content{
+    color: darkorange;
+    background-color: pink;
+}
+
+/* Descendant Selector */
+.article-container p{
+    color: red;
+}
+
+/* Pseudo Classes */
+a:hover{
+    color:darkgreen;
+    background-color: orangered;
+    font-size: 28px;
+}
+
+a:active{
+    color: slateblue;
+}
